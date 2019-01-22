@@ -1,7 +1,7 @@
 # docker-sample-tomcat-app
 
 ```shell
-docker run --rm -it $(docker build -q .)
+docker run --rm -p 8080:8080 -it $(docker build -q .)
 ```
 
 Visit http://localhost:8080 to see tomcat page
